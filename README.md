@@ -3,7 +3,7 @@
 なお、データの加工では、[deck.glのTripsLayer](https://deck.gl/docs/api-reference/geo-layers/trips-layer)で使用可能なJSON形式へ変換します。
 
 ## データの取得(gtfs_realtime_pb2.py)
-- [公共交通オープンデータセンターのサイト](https://ckan.odpt.org/dataset/b_bus_gtfs_rt-toei)よりGTFS-RTを取得して、[gtfs-realtime-binding](https://developers.google.com/transit/gtfs-realtime/examples/python-sample?hl=ja)を用いて、GTFS-RTをCSV形式に変換するプログラムです。
+- [gtfs-realtime-binding](https://developers.google.com/transit/gtfs-realtime/examples/python-sample?hl=ja)を用いて、[公共交通オープンデータセンターのサイト](https://ckan.odpt.org/dataset/b_bus_gtfs_rt-toei)よりGTFS-RTを取得して、CSV形式に変換するプログラムです。
 
 - 取得結果  
 `https://github.com/shi-works/GTFS-RT-csv2json-for-deck.gl/blob/main/ToeiBus_VehiclePosition.csv`
