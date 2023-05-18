@@ -9,7 +9,7 @@
 `https://github.com/shi-works/GTFS-RT-csv2json-for-deck.gl/blob/main/ToeiBus_VehiclePosition.csv`
 
 ## データの加工(csv2json.py)
-- 上記の取得したCSV形式のGTFS-RTをdeck.glのTripsLayerで使用可能なJSON形式へ変換するプログラムです。
+- 上記で取得したCSV形式のGTFS-RTをdeck.glのTripsLayerで使用可能なJSON形式へ変換するプログラムです。
 
 - 変換結果  
 `https://raw.githubusercontent.com/shi-works/GTFS-RT-csv2json-for-deck.gl/main/ToeiBus_VehiclePosition.json`
